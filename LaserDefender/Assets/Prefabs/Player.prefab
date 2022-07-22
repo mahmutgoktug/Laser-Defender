@@ -134,6 +134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
+  hitEffect: {fileID: 5513010090344850623, guid: 6665a0ab71a15fb42b93260ded367857, type: 3}
 --- !u!114 &-4464634861699226193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,7 +150,10 @@ MonoBehaviour:
   projectilePrefab: {fileID: 3304900201647016374, guid: 06f1a8929013d4642a8ad9e7229da552, type: 3}
   projectileSpeed: 10
   projectileLifetime: 5
-  firingRate: 0.2
+  baseFiringRate: 0.2
+  useAI: 0
+  firingRateVariance: 0
+  minimumFiringRate: 0.1
   isFiring: 0
 --- !u!1 &7640657771668031208
 GameObject:
